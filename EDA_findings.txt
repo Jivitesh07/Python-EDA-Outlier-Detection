@@ -1,0 +1,14 @@
+Exploratory Data Analysis (EDA) – Key Findings
+
+Dataset: House Prices
+
+1. The dataset contains 10 housing records with features related to area, bedrooms, price, and age. No missing or duplicate values were found.
+
+2. Descriptive analysis shows that house prices increase with larger area and more bedrooms. Price and Area_sqft exhibit right-skewed distributions with a few high-value outliers.
+
+3. Outliers were identified using the IQR method, primarily in Area_sqft and Price. These outliers were handled using capping to maintain data integrity while reducing skewness.
+
+4. Correlation analysis indicates a strong positive relationship between Area_sqft and Price, and a moderate correlation between Bedrooms and Price. Age shows a weak negative correlation with price.
+
+5. Conclusion:
+House price is mainly influenced by property size and number of bedrooms. The cleaned dataset is suitable for further analysis and modeling.
